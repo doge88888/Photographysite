@@ -1,0 +1,74 @@
+#title1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#backgroundimage {
+    max-width: 100%;
+    height: auto;
+    background-image: url("images/DSC_0639.png");
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+#navbar {
+    display: inline;
+    border-right: 1px solid #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    text-decoration: none;
+}
+
+#navbar:last-child {
+    border-right: none;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    position:relative
+}
+
+#navbar a::after {background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+#navbar a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+img {
+    border-radius: 8px;
+}
+
+#paragraph {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
